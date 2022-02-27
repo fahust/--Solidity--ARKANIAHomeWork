@@ -1,0 +1,16 @@
+Dispatch des 10% de fees open sea sur 2 wallets ici :
+https://buffer.moneypipe.xyz/rinkeby/group#address=0x8c888ACe9D349dA205B97e6ba443BDCeA1E57F31
+
+Collection test net ici : 
+https://testnets.opensea.io/collection/arkanegg
+
+L'address du contrat TOKEN ARKAN : 
+0x2FF6Be72249D57Fc72928a6B89844c953eeD3A52
+
+L'address du contrat AUCTION :
+0x84E492378aC7A8f41CA7F21EBb3195cb3778c002
+
+METADATA et IMAGE hebergé sur ipfs
+Création de token a la volé mis en place (lazy mint)
+Split des revenues généré par l'enchère sur deux adresses (dynamique avec setRoyaltiesAdress() )
+Plusieurs fonction qui doivent être mis en "only owner" on était mis ouvert au public pour te permettre de tester si besoin.
